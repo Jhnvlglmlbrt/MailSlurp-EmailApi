@@ -32,10 +32,11 @@
 
 6. Замените "Your API-key" на ваш реальный API-ключ в функции createClient.
 
+    ```bash
+    apiKey := "Your API-key"
+
 7. Запустите проект: 
 
     ```bash
     go run main.go
-
-
 
