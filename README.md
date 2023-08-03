@@ -23,15 +23,18 @@
    ```bash
    cd MailSlurp-CreatingEmail
 
+4. Установите зависимости проекта:
+    ```bash
+    go get
+    
+5. Скопируйте API-Ключ - [Ссылка](https://app.mailslurp.com/dashboard/)
 
-4. Скопируйте API-Ключ - [Ссылка](https://app.mailslurp.com/dashboard/)
-
-5. Замените "Your API-key" на ваш реальный API-ключ в функции createClient.
+6. Замените "Your API-key" на ваш реальный API-ключ в функции createClient.
 
     ```bash
     apiKey := "Your API-key"
 
-6. Запустите проект: 
+7. Запустите проект: 
 
     ```bash
     go run main.go
