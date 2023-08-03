@@ -14,14 +14,11 @@ func createClient() (*mailslurp.APIClient, context.Context) {
 	apiKey := "Your API-key"
 
 	// Создаем контекст с вашим API ключом
-	ctx := context.WithValue(
-		context.Background(),
-		mailslurp.ContextAPIKey,
-		mailslurp.APIKey{Key: apiKey},
-	)
+	ctx := context.WithValue(context.Background(), mailslurp.ContextAPIKey, mailslurp.APIKey{Key: apiKey})
 
 	// Создаем клиента MailSlurp
 	config := mailslurp.NewConfiguration()
+
 	return mailslurp.NewAPIClient(config), ctx
 }
 
