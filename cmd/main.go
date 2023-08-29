@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// Ваш API ключ
-	apiKey := "b2cc7c8960b89031022e872e1876ddc8fc9a638ba81e0e30478e6b858e6698a6"
+	apiKey := "api-key"
 
 	// Initialize MailSlurp client
 	client, ctx := createClient(apiKey)
